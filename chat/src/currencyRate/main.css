@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(7, 0, 0)!important;
+}
+
+.logo{
+   width: 500px; 
+ background-color: #fff!important;
+ padding: 25px 50px;
+ border-radius: 10px;
+}
+
+h2{
+    text-align: right;
+}
+
+
+.table{
+    background-color: #000!important;
+    color: #fff!important;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.green {
+    color: #008000;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+      background-color: lightblue!important;
+      width: 330px;
+     
+    }
+
+    .logo-image{
+        display: block; 
+        margin:0 auto;
+    }
+
+    h2{
+        text-align: center !important;
+    }
+    .table{
+        width: 300px;
+        background-color: #000!important;
+        color: #fff!important;
+    }
+  }
+
